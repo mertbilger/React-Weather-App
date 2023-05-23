@@ -4,7 +4,7 @@ import axios from "axios";
 import Fundamental from "./Fundamental";
 
 const InpandLine = () => {
-  const API_KEY = "63ded33782cd498e8d3184635230205";
+  const API_KEY = "Your-API";
   const [searchedCity, setSearchedCity] = useState("");
   const [Weather, setWeather] = useState([]);
   const [Status, setStatus] = useState([]);

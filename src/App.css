@@ -1,0 +1,50 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+@media only screen and (max-width: 700px) {
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+}
+.search{
+  min-height: 4vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2%;
+  margin-left: 850px;
+  border: 2px solid #000;
+}
+.searchButton{
+  width: 120px;
+  background-color: #381010;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-left: 875px;
+  margin-top: 2%;
+  border-radius: 25px;
+}
+.line{
+  height: 0.5px;
+  background-color: #000;
+  margin-top: 15px;
+}
+.ArananSehir{
+  margin-top: 2%;
+  margin-left: 750px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
